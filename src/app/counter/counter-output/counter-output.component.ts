@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable, Subscription } from 'rxjs';
 import { getCounter } from '../state/counter.selectors';
@@ -9,7 +9,7 @@ import { CounterState } from '../state/counter.state';
   templateUrl: './counter-output.component.html',
   styleUrls: ['./counter-output.component.css']
 })
-export class CounterOutputComponent implements OnInit {
+export class CounterOutputComponent implements OnInit, OnDestroy {
 
   // counter?: number;
   counter$?: Observable<number>;
