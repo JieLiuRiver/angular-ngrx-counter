@@ -13,12 +13,12 @@ export const initialState: PostsState = {
   posts: [
     {
       id: '23423',
-      name: 'AAA',
+      name: 'AAA1',
       desc: 'JSKDFJKLSDJFSKJFKDSJGKLJDSIHUMWLE[WIEJGMKDSNJHGDGKDSJKFSDJG'
     },
     {
-      id: '23423',
-      name: 'AAA',
+      id: '23424',
+      name: 'AAA2',
       desc: 'JSKDFJKLSDJFSKJFKDSJGKLJDSIHUMWLE[WIEJGMKDSNJHGDGKDSJKFSDJG'
     }
   ]
