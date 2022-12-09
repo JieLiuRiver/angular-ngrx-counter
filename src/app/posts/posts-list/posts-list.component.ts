@@ -12,6 +12,7 @@ import { getPosts } from '../state/posts.selectors';
 })
 export class PostsListComponent implements OnInit {
   posts$: Observable<Post[]>
+
   constructor(private store: Store<AppState>) {
     this.posts$ = this.store.select(getPosts)
   }
