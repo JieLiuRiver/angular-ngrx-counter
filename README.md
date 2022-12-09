@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# List
+
+- Disadvantages of not using create Selectors for selecting the store data in NGRX 
+  当派发一个action, 其他属性的 subscribe 回调也会触发
+
